@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true // это позволяет Vite прослушивать все сетевые интерфейсы
-  }
+  },
+  base: '/mini-react-app-qrcode',
 })
